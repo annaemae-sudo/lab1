@@ -1,6 +1,6 @@
 #include <iostream>
 #include <cmath>
-
+//комментарий для проверки
 int main() {
     std::cout << "Окружность" << std::endl;
     
@@ -11,7 +11,7 @@ int main() {
         std::cout << "r = ? ";
         std::cin >> r;
         if (std::cin.fail() || r <= 0) {
-            std::cout << "Ошибка! Радиус должен быть положительным числом." << std::endl;
+            std::cout << "Ошибка! Радиус должен быть положительным." << std::endl;
             std::cin.clear();
             std::cin.ignore(10000, '\n');
             r = -1;
@@ -45,3 +45,4 @@ int main() {
     
     return 0;
 }
+//новый комментарий
